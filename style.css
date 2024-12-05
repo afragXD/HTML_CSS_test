@@ -5,6 +5,7 @@ body {
 
 :root {
   --index: calc(1vw + 1vh);
+  
 }
 
 .section {
@@ -1414,5 +1415,43 @@ table.table-3 tr {
         right: 0;
       }
     }
+  }
+}
+
+.section16 {
+  margin: 5%;
+  background-color: #F1E9E9;
+  padding-bottom: 2%;
+
+  .section16__name {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5vw;
+    padding: 2%;
+  }
+  
+  .section16__canvas-api, 
+  .section16__video-playback, 
+  .section16__audio-playback {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section16__canvas-api h2,
+  .section16__video-playback h2,
+  .section16__audio-playback h2 {
+    margin: 0 0 10px;
+    font-size: 1.8vw;
+    color: #333;
+  }
+  
+  .section16__canvas-api p,
+  .section16__video-playback p,
+  .section16__audio-playback p {
+    font-size: 1.2vw;
+    color: #555;
   }
 }
