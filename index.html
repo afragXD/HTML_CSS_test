@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML + CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- section 1 -->
+  <section class="section">
+    <p class="section-name">Section #1</p>
+    <div class="list-container">
+      <div class="list-item">
+        <div class="list-number">1</div>
+        <div class="shop-list-1">
+          <p class="main-tetxt">Список покупок:</p>
+          <ul class="list-tetxt">
+            <li>Хлеб</li>
+            <li>Масло</li>
+            <li>Молоко</li>
+          </ul>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="list-number">2</div>
+        <div class="shop-list-2">
+          <p class="main-tetxt">Список покупок:</p>
+          <ol class="list-tetxt">
+            <li>Хлеб</li>
+            <li>Масло</li>
+            <li>Молоко</li>
+          </ol>
+        </div>
+      </div>
+      <div class="list-item">
+        <div class="list-number">3</div>
+        <div class="shop-list-3">
+          <dl>
+            <dt>HTML</dt>
+            <dd>Язык гипертекстовой разметки.</dd>
+            <dt>CSS</dt>
+            <dd>Язык каскадных таблиц стилей.</dd>
+          </dl>
+          <!-- <div class="list-tetxt">
+            <p>HTML</p>
+            <p>Язык гипертекстовой разметки, служит для<br> создания HTML страниц</p>
+            <p>CSS</p>
+            <p>Каскадные таблицы стилей, служат для<br> стилизации элементов HTML страницы</p>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 2 -->
+  <section class="section">
+    <p class="section-name">Section #2</p>
+    <form class="form-elements">
+      <input class="input-element" type="text" placeholder="Плейсхолдер">
+      <input class="input-element" type="text" value="Value">
+      <input class="input-element" type="text" value="disabled" disabled>
+      <input class="input-element" type="password" value="*****">
+      <textarea class="input-element" placeholder="Введите текст"></textarea>
+      <input class="button-element" type="button" value="Кнопка через тег input">
+      <button class="button-element" type="button">Кнопка через тег button</button>
+    </form>
+  </section>
+  <!-- section 3 -->
+  <section class="section">
+    <p class="section-name">Section #3</p>
+    <div>
+      <div class="item-container">
+        <div class="list-number">1</div>
+        <table class="table-1">
+          <tr class="tr-up">
+            <td>ячейка 1</td>
+            <td>ячейка 2</td>
+            <td>ячейка 3</td>
+          </tr>
+          <tr>
+            <td>ячейка 4</td>
+            <td>ячейка 5</td>
+            <td>ячейка 6</td>
+          </tr>
+          <tr>
+            <td>ячейка 7</td>
+            <td>ячейка 8</td>
+            <td>ячейка 9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="item-container">
+        <div class="list-number">2</div>
+        <table class="table-2">
+          <tr>
+            <td colspan="3">ячейка 1</td>
+          </tr>
+          <tr>
+            <td>ячейка 4</td>
+            <td rowspan="2">ячейка 5</td>
+            <td>ячейка 6</td>
+          </tr>
+          <tr>
+            <td>ячейка 8</td>
+            <td>ячейка 9</td>
+          </tr>
+        </table>
+      </div>
+      <div class="item-container">
+        <div class="list-number">3</div>
+        <table class="table-3">
+          <tr>
+            <td rowspan="2">номер</td>
+            <td colspan="2">теги</td>
+          </tr>
+          <tr>
+            <td>тег</td>
+            <td>значение</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>p</td>
+            <td rowspan="4">для текста</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>a</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>b</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>i</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>table</td>
+            <td>таблица</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>tr</td>
+            <td>ряд таблицы</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>td</td>
+            <td rowspan="2">ячейки таблицы</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>th</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+  <!-- section 4 -->
+  <section class="section3">
+    <p class="section-name">Section #4</p>
+    <div>
+      <div class="section3__item">
+        <div class="list-number">1</div>
+        <p class="section3__text1">But here she from the church-door stepped
+          She smiled and told us why:
+          'It was a wicked woman's curse,'
+          Quoth she, 'and what care l?'
+
+          She smiled, and smiled, and passed it off
+          Ere from the door she stept-
+        </p>
+      </div>
+      <div class="section3__item">
+        <div class="list-number">2</div>
+        <div class="section3__text-container2">
+          <p class="section3__text2">But here she from the church-door stepped
+            She smiled and told us why:
+            'It was a wicked woman's curse,'
+            Quoth she, 'and what care l?'
+
+            She smiled, and smiled, and passed it off
+            Ere from the door she stept-
+          </p>
+        </div>
+      </div>
+      <div class="section3__item">
+        <div class="list-number">3</div>
+        <div class="section3__text-container3">
+          <p class="section3__text3">But here she from the church-door stepped
+            She smiled and told us why:
+            'It was a wicked woman's curse,'
+            Quoth she, 'and what care l?'
+
+            She smiled, and smiled, and passed it off
+            Ere from the door she stept-
+          </p>
+        </div>
+      </div>
+      <div class="section3__item">
+        <div class="list-number">4</div>
+        <p class="section3__text4">But here she from the church-door stepped
+          She smiled and told us why:
+          'It was a wicked woman's curse,'
+          Quoth she, 'and what care l?'
+
+          She smiled, and smiled, and passed it off
+          Ere from the door she stept-
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- section 5 -->
+  <section class="section5">
+    <p class="section-name">Section #5</p>
+    <div class="section5__items-container">
+      <p>Это p</p>
+      <div>Это div</div>
+      <span>Это span</span>
+      <input type="text" value="Это input">
+      <h3>Это h3</h3>
+      <button>это button</button>
+      <section>Это section1</section>
+      <section>Это section2</section>
+    </div>
+  </section>
+  <!-- section 6 -->
+  <section class="section6">
+    <p class="section-name">Section #6</p>
+    <div class="section6__part1">
+      <div>
+        <p>p in div</p>
+        <h2>h2 in div</h2>
+      </div>
+      <div id="test">
+        <p>p in div id=test</p>
+        <h2>h2 in div id=test</h2>
+        <p class="bbb">p class bbb in div id=test</p>
+        <h2 class="bbb">h2 class bbb in div id=test</h2>
+        <p class="xxx">p class xxx in div id=test</p>
+      </div>
+      <p class="bbb">p class bbb</p>
+      <h2 class="bbb" id="test">h2 class bbb id=test</h2>
+      <h2 class="xxx">h2 class xxx</h2>
+      <div class="fff">
+        <p>p in div class fff</p>
+        <h2>h2 in div class fff</h2>
+        <p class="bbb">p class bbb in div class fff</p>
+        <h2 class="bbb">h2 class bbb in div class fff</h2>
+      </div>
+      <p class="fff">p class fff</p>
+      <span>Span!!!!</span>
+      <div data-value="45">div data-value=45</div>
+      <div class="parent">
+        <p class="child">p child in div parent</p>
+      </div>
+      <div class="text active">div class text and active</div>
+      <ul id="my-list">
+        <li>1xd</li>
+        <li>2xd</li>
+        <li>3xd</li>
+        <li>4xd</li>
+        <li>5xd</li>
+        <li>6xd</li>
+        <li>7xd</li>
+        <li>8xd</li>
+      </ul>
+    </div>
+    <div class="section6__part2">
+      <img class="section6__img" src="/img/wayland.png" alt="Это логотип: Wayland!!!">
+      <p>p #1</p>
+      <h1>h1 #1</h1>
+      <p>p #2</p>
+      <div>div #1</div>
+      <p>p #3</p>
+      <img class="section6__img" src="/img/wayland.png" alt="Это логотип: Wayland!!!">
+      <p>p #4</p>
+      <p>p #5</p>
+      <div>div #2</div>
+    </div>
+  </section>
+  <!-- section 7 -->
+  <section class="section7">
+    <p class="section-name">Section #7</p>
+    <div class="section7__part">
+      <div class="list-number">1</div>
+      <div class="section7__parent">
+        <div class="section7__child">child_1</div>
+        <div class="section7__child" id="child2">child_2</div>
+        <div class="section7__child">child_3</div>
+        <div class="section7__child">child_4</div>
+      </div>
+    </div>
+    <div class="section7__part">
+      <div class="list-number">2</div>
+      <div class="section7__space">
+        <img src="img/section7/people.png" class="section7__people">
+        <img src="img/section7/planet1.png" class="section7__planet1">
+        <img src="img/section7/planet2.png" class="section7__planet2">
+        <img src="img/section7/planet3.png" class="section7__planet3">
+        <img src="img/section7/ufo.png" class="section7__ufo">
+        <img src="img/section7/rocket.png" class="section7__rocket">
+        <img src="img/section7/potato.png" class="section7__potato">
+      </div>
+    </div>
+  </section>
+  <!-- section 8 -->
+  <section class="section8">
+    <p class="section-name">Section #8</p>
+    <div class="section8__parent">
+      <div class="section8__child section8__child1"></div>
+      <div class="section8__child section8__child2"></div>
+    </div>
+  </section>
+  <!-- section 9 -->
+  <section class="section9">
+    <p class="section-name">Section #9</p>
+    <div class="section9__list-container">
+      <div class="section9_list-item">
+        <div class="list-number">1</div>
+        <div class="section9__task section9__task1">
+          <div class="section9__item section9__item1"></div>
+          <div class="section9__item section9__item2"></div>
+          <div class="section9__item section9__item3"></div>
+          <div class="section9__item section9__item4"></div>
+          <div class="section9__item section9__item5"></div>
+          <div class="section9__item section9__item6"></div>
+          <div class="section9__item section9__item7"></div>
+        </div>
+      </div>
+      <div class="section9_list-item">
+        <div class="list-number">2</div>
+        <div class="section9__task section9__task2">
+          <div class="section9__item section9__item1"></div>
+          <div class="section9__item section9__item2"></div>
+          <div class="section9__item section9__item3"></div>
+        </div>
+      </div>
+      <div class="section9_list-item">
+        <div class="list-number">3</div>
+        <div class="section9__task section9__task3">
+          <div class="section9__item section9__item1"></div>
+          <div class="section9__item section9__item2"></div>
+          <div class="section9__item section9__item3"></div>
+        </div>
+      </div>
+      <div class="section9_list-item">
+        <div class="list-number">4</div>
+        <div class="section9__task section9__task4">
+          <div class="section9__item section9__item1"></div>
+          <div class="section9__item section9__item2"></div>
+          <div class="section9__item section9__item3"></div>
+        </div>
+      </div>
+      <div class="section9_list-item">
+        <div class="list-number">5</div>
+        <div class="section9__task section9__task5">
+          <div class="section9__item section9__item1"></div>
+          <div class="section9__item section9__item2"></div>
+          <div class="section9__item section9__item3"></div>
+        </div>
+      </div>
+      <div class="section9_list-item">
+        <div class="list-number">6</div>
+        <div class="section9__task section9__task6">
+          <div class="section9__item section9__item1"></div>
+          <div class="section9__item section9__item2"></div>
+          <div class="section9__item section9__item3"></div>
+        </div>
+      </div>
+      <div class="section9__part2_father">
+        <div class="section9__part2_child">
+          <div class="section9_list-item2">
+            <div class="list-number">7</div>
+            <div class="section9__task section9__task7">
+              <div class="section9__item section9__item1"></div>
+              <div class="section9__item section9__item2"></div>
+              <div class="section9__item section9__item3"></div>
+              <div class="section9__item section9__item4"></div>
+            </div>
+          </div>
+          <div class="section9_list-item2">
+            <div class="list-number">8</div>
+            <div class="section9__task section9__task8">
+              <div class="section9__item section9__item1"></div>
+              <div class="section9__item section9__item2"></div>
+              <div class="section9__item section9__item3"></div>
+              <div class="section9__item section9__item4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="section9__part2_child">
+          <div class="section9_list-item2">
+            <div class="list-number">9</div>
+            <div class="section9__task section9__task9">
+              <div class="section9__item section9__item1"></div>
+              <div class="section9__item section9__item2"></div>
+              <div class="section9__item section9__item3"></div>
+              <div class="section9__item section9__item4"></div>
+            </div>
+          </div>
+          <div class="section9_list-item2">
+            <div class="list-number">10</div>
+            <div class="section9__task section9__task10">
+              <div class="section9__item section9__item1"></div>
+              <div class="section9__item section9__item2"></div>
+              <div class="section9__item section9__item3"></div>
+              <div class="section9__item section9__item4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section9_list-item">
+        <div class="list-number">11</div>
+        <div class="section9__task section9__task11">
+          <div class="section9__item section9__item1">
+            <p>text text</p>
+          </div>
+          <div class="section9__item section9__item2">
+            <p>text text</p>
+          </div>
+          <div class="section9__item section9__item3">
+            <p>text text</p>
+          </div>
+          <div class="section9__item section9__item4">
+            <p>text text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section 10 -->
+  <section class="section10">
+    <p class="section10__name">Section #10</p>
+    <div class="section10__task task">
+      <header class="task__head head">
+        <p class="head__title">[Шапка страницы]</p>
+      </header>
+      <main class="task__center center">
+        <div class="center__main main">
+          <p class="center__title">[Основная часть]</p>
+          <div class="main__items items">
+            <div class="items__columns">
+              <div class="items__row">
+                <p class="items__item items__item_more">[Ещё 1]</p>
+              </div>
+              <div class="items__row">
+                <p class="items__item items__item_more">[Ещё 2]</p>
+              </div>
+            </div>
+            <div class="items__columns">
+              <div class="items__row">
+                <p class="items__item items__item_once">[Ещё 3]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="center__side side">
+          <p class="center__title">[Боковая область]</p>
+        </div>
+      </main>
+      <footer class="task__footer footer">
+        <p class="footer__title">[Секция футера 1]</p>
+        <p class="footer__title">[Секция футера 2]</p>
+        <p class="footer__title">[Секция футера 3]</p>
+        <p class="footer__title">[Секция футера 4]</p>
+      </footer>
+    </div>
+  </section>
+  <!-- section 11 -->
+  <section class="section11">
+    <p class="section11__name">Section #11</p>
+    <div class="section11__parent">
+      <div class="section11__child"></div>
+    </div>
+    <div class="section11__parent">
+      <div class="section11__child"></div>
+    </div>
+  </section>
+  <!-- section 12 -->
+  <section class="section12">
+    <p class="section12__name">Section #12</p>
+    <div class="section12__container"></div>
+  </section>
+  <!-- section 13 -->
+  <section class="section13">
+    <p class="section13__name">Section #13</p>
+    <div class="section13__parent">
+      <div class="section13__child">text</div>
+    </div>
+  </section>
+  <!-- section 14 -->
+  <section class="section14">
+    <p class="section14__name">Section #14</p>
+    <div class="container">
+      <header class="container__header element">HEADER</header>
+      <nav class="container__nav element">NAV</nav>
+      <main class="container__main element">MAIN</main>
+      <aside class="container__aside element">ASIDE</aside>
+      <section class="container__section element">SECTION</section>
+      <footer class="container__footer element">FOOTER</footer>
+    </div>
+    <div class="container">
+      <header class="container__header element">HEADER</header>
+      <nav class="container__nav element">NAV</nav>
+      <main class="container__main element">MAIN</main>
+      <aside class="container__aside element">ASIDE</aside>
+      <section class="container__section element">SECTION</section>
+      <footer class="container__footer element">FOOTER</footer>
+    </div>
+  </section>
+  <!-- section 15 -->
+  <section class="section15">
+    <p class="section15__name">Section #15</p>
+    <div class="task1">
+      <div class="task1__row">
+        <div class="task1__item">child_1</div>
+        <div class="task1__item">child_2</div>
+        <div class="task1__item">child_3</div>
+      </div>
+      <div class="task1__row">
+        <div class="task1__item">child_4</div>
+        <div class="task1__item task1__item_child5">child_5</div>
+        <div class="task1__item">child_6</div>
+      </div>
+      <div class="task1__row">
+        <div class="task1__item">child_7</div>
+        <div class="task1__item">child_8</div>
+        <div class="task1__item">child_9</div>
+      </div>
+    </div>
+    <div class="task1">
+      <div class="task1__row">
+        <div class="task1__item">child_1</div>
+        <div class="task1__item">child_2</div>
+        <div class="task1__item">child_3</div>
+      </div>
+      <div class="task1__row">
+        <div class="task1__item">child_4</div>
+        <div class="task1__item task1__item_child5">child_5</div>
+        <div class="task1__item">child_6</div>
+      </div>
+      <div class="task1__row">
+        <div class="task1__item">child_7</div>
+        <div class="task1__item">child_8</div>
+        <div class="task1__item">child_9</div>
+      </div>
+    </div>
+    <div class="task1">
+      <div class="task1__row">
+        <div class="task1__item">child_1</div>
+        <div class="task1__item">child_2</div>
+        <div class="task1__item">child_3</div>
+      </div>
+      <div class="task1__row">
+        <div class="task1__item">child_4</div>
+        <div class="task1__item task1__item_child5">child_5</div>
+        <div class="task1__item">child_6</div>
+      </div>
+      <div class="task1__row">
+        <div class="task1__item">child_7</div>
+        <div class="task1__item">child_8</div>
+        <div class="task1__item">child_9</div>
+      </div>
+    </div>
+    <div class="task2">
+      <div class="task2__row">
+        <div class="task2__item">child_1</div>
+        <div class="task2__item">child_2</div>
+        <div class="task2__item">child_3</div>
+      </div>
+      <div class="task2__row">
+        <div class="task2__item">child_4</div>
+        <div class="task2__item">child_5</div>
+        <div class="task2__item">child_6</div>
+      </div>
+      <div class="task2__row">
+        <div class="task2__item">child_7</div>
+        <div class="task2__item">child_8</div>
+        <div class="task2__item task2__item_child9">child_9</div>
+      </div>
+    </div>
+    <div class="task2">
+      <div class="task2__row">
+        <div class="task2__item">child_1</div>
+        <div class="task2__item">child_2</div>
+        <div class="task2__item">child_3</div>
+      </div>
+      <div class="task2__row">
+        <div class="task2__item">child_4</div>
+        <div class="task2__item">child_5</div>
+        <div class="task2__item">child_6</div>
+      </div>
+      <div class="task2__row">
+        <div class="task2__item">child_7</div>
+        <div class="task2__item">child_8</div>
+        <div class="task2__item task2__item_child9">child_9</div>
+      </div>
+    </div>
+    <div class="task2">
+      <div class="task2__row">
+        <div class="task2__item">child_1</div>
+        <div class="task2__item">child_2</div>
+        <div class="task2__item">child_3</div>
+      </div>
+      <div class="task2__row">
+        <div class="task2__item">child_4</div>
+        <div class="task2__item">child_5</div>
+        <div class="task2__item">child_6</div>
+      </div>
+      <div class="task2__row">
+        <div class="task2__item">child_7</div>
+        <div class="task2__item">child_8</div>
+        <div class="task2__item task2__item_child9">child_9</div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
